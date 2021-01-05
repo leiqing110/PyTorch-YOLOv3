@@ -20,7 +20,7 @@ def load_classes(path):
     Loads class labels at 'path'
     """
     fp = open(path, "r")
-    names = fp.read().split("\n")[:-1]
+    names = fp.read().split("\n")
     return names
 
 
@@ -277,6 +277,9 @@ def build_targets(pred_boxes, pred_cls, target, anchors, ignore_thres):
     # Output tensors
     obj_mask = ByteTensor(nB, nA, nG, nG).fill_(0)
     noobj_mask = ByteTensor(nB, nA, nG, nG).fill_(1)
+    obj_mask=obj_mask.bool() # convert int8 to bool
+
+    noobj_mask=noobj_mask.bool() #convert int8 to bool
     class_mask = FloatTensor(nB, nA, nG, nG).fill_(0)
     iou_scores = FloatTensor(nB, nA, nG, nG).fill_(0)
     tx = FloatTensor(nB, nA, nG, nG).fill_(0)

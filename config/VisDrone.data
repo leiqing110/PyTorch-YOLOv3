@@ -1,0 +1,6 @@
+classes=10
+train=data/VisDrone2019-DET/VisDrone2019-DET_train.txt
+valid=data/VisDrone2019-DET/VisDrone2019-DET_valid.txt
+names=data/VisDrone2019.names
+backup=backup/
+eval=VisDrone2019

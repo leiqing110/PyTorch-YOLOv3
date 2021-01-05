@@ -1,0 +1,9 @@
+G:/dataset/VisDrone2019-DET/images/005817.jpg
+G:/dataset/VisDrone2019-DET/images/005818.jpg
+G:/dataset/VisDrone2019-DET/images/005819.jpg
+G:/dataset/VisDrone2019-DET/images/005820.jpg
+G:/dataset/VisDrone2019-DET/images/005821.jpg
+G:/dataset/VisDrone2019-DET/images/005822.jpg
+G:/dataset/VisDrone2019-DET/images/005823.jpg
+G:/dataset/VisDrone2019-DET/images/005824.jpg
+G:/dataset/VisDrone2019-DET/images/005825.jpg
